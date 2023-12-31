@@ -1,0 +1,21 @@
+<%- include("partials/header.ejs") -%>
+
+<br>
+ 
+<h1>Publish Your New Blog</h1>
+
+<form action="/compose" method = "post">
+    <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label"><Title></Title></label>
+        <input type="text" class="form-control" id="exampleFormControlInput1" name="dataoftitle">
+      </div>
+      <div class="mb-3">
+        <label for="exampleFormControlTextarea1" class="form-label">Post</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" name="dataofpost"></textarea>
+      </div>
+      <br>
+      <input class="btn btn-primary" type="submit" value="Submit">
+
+</form>
+
+<%- include("partials/footer.ejs") -%>

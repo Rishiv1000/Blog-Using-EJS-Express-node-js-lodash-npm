@@ -1,0 +1,18 @@
+<%- include('partials/header.ejs') %>
+
+<h1>WELCOME TO HOME</h1>
+
+<p1>  <%= First %> </p1>
+
+<% array.forEach( function(element){ %>
+    <h1> <%= element.title %> </h1>
+    <p> <%= element.data.substring(0,100) + "...."  %>
+    <a href="/posts/<%= element.title %>"> Read More</a></p>    
+<% })  %>
+
+
+
+<%- include('partials/footer.ejs') %>
+
+
+
