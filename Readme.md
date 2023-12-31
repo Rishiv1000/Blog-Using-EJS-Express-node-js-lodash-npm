@@ -1,3 +1,7 @@
+
+![Screenshot 2023-12-31 230733](https://github.com/Rishiv1000/7.Blog-Using-EJS-Express-node-js-lodash-npm/assets/114014651/b9b46f17-9439-47b5-84bc-da589f7a777f)
+
+
 check dependencies -
 if  node module is not downloaded  then type "npm install"
  
